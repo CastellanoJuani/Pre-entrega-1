@@ -1,0 +1,100 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    padding: 100px;
+}
+
+.logo img{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    width: 73.62px;
+    height: 34.87px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu li{
+    color: black;
+    font-weight: bold;
+    display: inline;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(187, 136, 60);    
+}
+
+.redes a {
+    font-size: 25px;
+    color: black;
+}
+
+.portada {
+    background: url(portdaAirForce.jpg) center no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 5%;;
+}
+
+h1{
+    letter-spacing: 3px;
+    color: black;
+    display: flex;
+    margin: 20px;
+}
+
+.foto img {
+    display: flex;
+    margin: 20px;
+    width: 25%;
+    height: 25%;
+}
+
+.galeria button {
+    color: white;
+    background-color: black ;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(187, 136, 60);
+}
+
+p {
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.pie a {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.social a {
+    color: white;
+    font-size: 25px;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+}

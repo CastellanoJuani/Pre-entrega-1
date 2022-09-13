@@ -1,0 +1,44 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    padding: 100px;
+}
+
+.logo img{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    width: 73.62px;
+    height: 34.87px;
+}
+
+p {
+    color: grey;
+    font-size: 20px;
+}
+
+.formulario {
+    display: flex;
+    color: black;
+    line-height: 30px;
+    justify-content: center;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    line-height: 20px;
+}
